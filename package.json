@@ -1,6 +1,6 @@
 {
-  "name": "docusaurus-plugin-baidu-analytics",
-  "version": "1.0.0",
+  "name": "@rainyjune/docusaurus-plugin-baidu-analytics",
+  "version": "1.0.1",
   "description": "Baidu Analytics plugin for Docusaurus",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
