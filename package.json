@@ -1,0 +1,30 @@
+{
+  "name": "docusaurus-plugin-baidu-analytics",
+  "version": "1.0.0",
+  "description": "Baidu Analytics plugin for Docusaurus",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "init": "tsc --init",
+    "build": "tsc --build",
+    "watch": "tsc --build --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainyjune/docusaurus-plugin-baidu-analytics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rainyjune/docusaurus-plugin-baidu-analytics/issues"
+  },
+  "homepage": "https://github.com/rainyjune/docusaurus-plugin-baidu-analytics#readme",
+  "dependencies": {
+    "@docusaurus/core": "^2.3.0",
+    "@docusaurus/types": "^2.3.0",
+    "@docusaurus/utils-validation": "^2.3.0",
+    "tslib": "^2.5.0"
+  }
+}
