@@ -10,18 +10,15 @@ const clientModule: ClientModule = {
     ) {
       // Normally, the document title is updated in the next tick due to how
       // `react-helmet-async` updates it. We want to send the current document's
-      // title to gtag instead of the old one's, so we use `setTimeout` to defer
+      // title to baidu analytics instead of the old one's, so we use `setTimeout` to defer
       // execution to the next tick.
       // See: https://github.com/facebook/docusaurus/issues/7420
       setTimeout(() => {
         // Always refer to the variable on window in case it gets overridden elsewhere.
-        // TODO
-        /*
         window._hmt.push([
           "_trackPageview",
           location.pathname + location.search + location.hash,
         ]);
-        */
       });
     }
   },
